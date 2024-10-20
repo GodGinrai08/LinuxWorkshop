@@ -3,11 +3,13 @@
 #include <cstdlib>  // For std::atoi
 
 int fibonacci(int n) {
+    std:: cout<<"HH";
     if (n <= 1) return n;
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int main(int argc, char* argv[]) {
+    cout<<"hh";
     if (argc < 2) {
         std::cerr << "Usage: " << argv[0] << " <n>" << std::endl;
         return 1; // Exit with error code
