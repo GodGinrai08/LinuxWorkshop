@@ -3,7 +3,7 @@
 #include <cstdlib>  // For std::atoi
 
 int fibonacci(int n) {
-    std:: cout<<"HH";
+    std::cout<<"HH";
     if (n <= 1) return n;
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
